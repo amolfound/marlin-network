@@ -1,0 +1,1 @@
+// used by Master nodes and publishers to verify validity of files served by Relay/Master nodes

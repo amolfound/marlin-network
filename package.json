@@ -1,0 +1,26 @@
+{
+  "name": "marlin-network",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/marlinprotocol/marlin-network.git"
+  },
+  "author": {
+    "name": "Amol Agrawal",
+    "email": "amolfound@gmail.com",
+    "url": "https://marlin.pro"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/marlinprotocol/marlin-network/issues"
+  },
+  "homepage": "https://gitlab.com/marlinprotocol/marlin-network#README",
+  "dependencies": {
+    "request-promise": "^4.2.2"
+  }
+}
