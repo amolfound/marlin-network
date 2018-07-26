@@ -1,26 +1,24 @@
 {
-  "name": "marlin-network",
-  "version": "1.0.0",
-  "description": "",
-  "main": "main.js",
+  "name": "@marlinprotocol/marlin-network",
+  "version": "0.0.1",
+  "description": "marlin-network project",
+  "license": "SEE LICENSE IN LICENSE",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/*.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://gitlab.com/marlinprotocol/marlin-network.git"
-  },
-  "author": {
-    "name": "Amol Agrawal",
-    "email": "amolfound@gmail.com",
-    "url": "https://marlin.pro"
-  },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://gitlab.com/marlinprotocol/marlin-network/issues"
-  },
-  "homepage": "https://gitlab.com/marlinprotocol/marlin-network#README",
+  "author": "Amol Agrawal",
   "dependencies": {
-    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "mocha": "^5.2.0",
+    "sinon": "^6.0.0"
   }
 }
